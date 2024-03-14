@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-9">
+                <div id="game-container">
+                    <div id="snake"></div>
+                    <div id="food"></div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div id="score" class="text-center mt-3">
+                    <h3 class="mb-4">Score</h3>
+                    <div class="score-value-container">
+                        <span class="score-label">Your Score:</span>
+                        <span id="score-value" class="score-value">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
